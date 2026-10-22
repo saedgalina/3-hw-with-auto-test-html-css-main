@@ -7,8 +7,10 @@
 .container {
     height: 100%;
     width: 100%;
-    max-width: 1140px;
-    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body {
@@ -37,7 +39,6 @@ header span {
 
 .main-section .wrapper {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -84,7 +85,7 @@ select {
     background-image: url("./ep_arrow-down.svg");
     background-repeat: no-repeat;
     background-position: right 12px top 50%;
-    transition-duration: 0.2s;
+    transition: 0.2s;
 }
 
 select:hover,
@@ -171,12 +172,12 @@ form {
     font-weight: 700;
     font-size: 14px;
     color: #fff;
-    transition-duration: 0.2s;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
 .btn:hover {
     background-color: #2965F1E5;
-    cursor: pointer;
 }
 
 .line {
@@ -207,7 +208,7 @@ footer {
     font-size: 14px;
     color: #2965f1;
     text-decoration: none;
-    transition-duration: 0.2s;
+    transition: 0.2s;
 }
 
 .footer-link:hover {
