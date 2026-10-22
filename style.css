@@ -7,10 +7,8 @@
 .container {
     height: 100%;
     width: 100%;
-    max-width: 1170px;
-    padding: 0 15px;
+    max-width: 1140px;
     margin: 0 auto;
-    /* 📍 Максимальная ширина для контейнера */
 }
 
 body {
@@ -34,7 +32,6 @@ header span {
     padding: 60px 0;
     min-height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -47,6 +44,7 @@ header span {
 
 .text-wrapper {
     max-width: 450px;
+    width: 450px;
 }
 
 .main-title {
@@ -97,8 +95,6 @@ select:hover,
 
 .info-wrapper {
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .section-title {
@@ -128,7 +124,7 @@ select:hover,
 
 .skills-block {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 
 .skills {
@@ -136,7 +132,6 @@ select:hover,
     display: flex;
     flex-direction: column;
     gap: 20px;
-    order: 2;
 }
 
 .books-list {
@@ -149,12 +144,10 @@ select:hover,
 .label {
     font-weight: 400;
     font-size: 16px;
-
 }
 
 form {
     margin-bottom: 40px;
-    order: 1;
 }
 
 .text-field {
